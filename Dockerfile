@@ -1,7 +1,7 @@
 FROM ubuntu:mantic-20230624
 
-WORKDIR /usr/app
-COPY ./ /usr/app
+
+COPY . .
 RUN apt update
 RUN apt install nodejs -y
 RUN apt install npm -y
