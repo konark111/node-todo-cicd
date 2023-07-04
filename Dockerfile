@@ -6,7 +6,7 @@ RUN apt update
 RUN apt install nodejs -y
 RUN apt install npm -y
 #COPY . app/ && cd app/
-RUN npm install
+RUN npm install -g
 
 
 
